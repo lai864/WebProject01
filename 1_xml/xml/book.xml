@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<books>
+    <book sn="21323425317">
+        <name>时间简史</name>
+        <author>霍金</author>
+        <price>50</price>
+    </book>
+    <book sn="21323425318">
+        <name>Java核心技术</name>
+        <author><![CDATA[<<<<<<无名]]></author> <!--  <![CDATA[<<<<<<无名]]>里的特殊字符不会解析，原样显示在网页 -->
+        <price>20</price>
+    </book>
+    <!--支持单标签-->
+    <book sn="1244325426" name="数字信号处理" author="陈佩青" price="70"/>
+</books>

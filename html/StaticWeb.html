@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我是标题</title>
+</head>
+<body>
+<p>这是最好的时代，这是最坏的时代；</p>
+这是智慧的时代，这是愚蠢的时代；<br/>
+这是信仰的时代，这是怀疑的时代<br/>
+这是光明的季节，这是黑暗的季节；<br/>
+这是希望之春，这是失望之冬；<br/>
+人们面前有着各种事物，人们面前一无所有；<br/>
+人们正在直登天堂，人们正在直下地狱
+<hr/>
+<a href="https://www.baidu.com">摆渡</a><br/>
+<a href="https://www.baidu.com" target="_self">_self摆渡原地TP</a><br/>
+<a href="https://www.baidu.com" target="_blank">_blank摆渡新开网页</a><br/>
+<hr/>
+<ul type="none">
+    <li>赵四</li>
+    <li>刘能</li>
+    <li>小沈阳</li>
+    <li>宋小宝</li>
+    <!-- 有序ol-->
+</ul>
+<!--在web中路径分为相对路径和绝对路径
+    相对路径：
+        .  表示当前文件所在的目录
+        .. 表示当前文件所在的上一级目录
+        文件名 表示当前文件所在目录的文件，相当于./文件名  ./可以省略
+
+     绝对路径：
+        正确格式： http://ip:port/工程名/资源路径
+
+        img标签是图片标签，src设置图片路径，border设置边框大小，alt属性设置
+       当找不到图片路径，用来代替显示的文本内容-->
+<img src="../imgs/QQ图片20200131210445.png" width="233" height="180" border="1" alt="图片丢失了T_T"/>
+<img src="../imgs/QQ图片20200131201804.png" width="233" height="180"/>
+<img src="../imgs/QQ图片20200131204428.png" width="233" height="180"/>
+<img src="../imgs/QQ图片20200131203239.png" width="233" height="180"/>
+
+<!-- table是表标签，tr是行标签，td是单元格标签 align表位置，th表头标签 cellspacing设置单元格间距-->
+<table align="left" border="2" width="180" height="90" cellspacing="0">
+    <tr>
+        <th>学号</th>
+        <th>1</th>
+        <th>2</th>
+    </tr>
+    <tr>
+        <td>姓名</td>
+        <td>巨魔叔叔</td>
+        <td>混世魔王</td>
+    </tr>
+    <tr>
+        <td>性别</td>
+        <td>男</td>
+        <td>男</td>
+    </tr>
+</table>
+<!-- 单元格标签colspan属性跨行，rowspan属性跨列 border给表加边框-->
+<table border="1" width="500" height="500" cellspacing="0">
+   <tr>
+       <td colspan="2">1.1</td>
+       <td>1.2</td>
+       <td>1.3</td>
+       <td>1.4</td>
+       <td>1.5</td>
+   </tr>
+    <tr>
+       <td rowspan="2">2.1</td>
+       <td>2.2</td>
+       <td>2.3</td>
+       <td>2.4</td>
+       <td>2.5</td>
+   </tr>
+    <tr>
+       <td>3.1</td>
+       <td>3.2</td>
+       <td>3.3</td>
+       <td>3.4</td>
+       <td>3.5</td>
+   </tr>
+    <tr>
+       <td>4.1</td>
+       <td>4.2</td>
+       <td>4.3</td>
+       <td colspan="2" rowspan="2">4.4</td>
+   </tr>
+    <tr>
+       <td>5.1</td>
+       <td>5.2</td>
+       <td>5.3</td>
+   </tr>
+
+</table>
+
+<h1>内容标题</h1>
+<h2>内容标题</h2>
+<h3>内容标题</h3>
+<h4>内容标题</h4>
+<h5>内容标题</h5>
+<h6>内容标题</h6>
+
+<!-- ifarme标签可以在页面上开辟一个小区域显示一个单独的页面 能和a标签搭配，在ifarme区域显示链接网页内容，name,target-->
+<iframe src="StaticWeb.html" width="600" height="300" name="abc"></iframe>
+<ul>
+    <li><a href="StaticWeb.html" target="abc">StaticWed.html</a></li>
+    <li><a href="StaticWeb.html" target="abc">StaticWed.html</a></li>
+    <li><a href="StaticWeb.html" target="abc">StaticWed.html</a></li>
+</ul>
+
+<!--div span p标签的演示
+    div标签   默认独占一行
+    span标签  它的长度是封装数据的长度
+    p段落标签  默认会在段落的上方或下方空出一行（如果已有就不在空出）   -->
+    <div>div标签</div>
+    <div>div标签</div>
+    <span>span标签</span>
+    <span>span标签</span>
+    <p>p标签</p>
+    <p>p标签</p>
+</body>
+</html>

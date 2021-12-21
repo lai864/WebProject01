@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01_servlet/01_servlet.iml" filepath="$PROJECT_DIR$/01_servlet/01_servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1_book/1_book.iml" filepath="$PROJECT_DIR$/1_book/1_book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1_xml/1_xml.iml" filepath="$PROJECT_DIR$/1_xml/1_xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaScript/JavaScript.iml" filepath="$PROJECT_DIR$/JavaScript/JavaScript.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Json_ajax_i18n/Json_ajax_i18n.iml" filepath="$PROJECT_DIR$/Json_ajax_i18n/Json_ajax_i18n.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyWeb/MyWeb.iml" filepath="$PROJECT_DIR$/MyWeb/MyWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Web/Web.iml" filepath="$PROJECT_DIR$/Web/Web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebProject01.iml" filepath="$PROJECT_DIR$/WebProject01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/book/book.iml" filepath="$PROJECT_DIR$/book/book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cookie_session/cookie_session.iml" filepath="$PROJECT_DIR$/cookie_session/cookie_session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/css/css.iml" filepath="$PROJECT_DIR$/css/css.iml" />
+      <module fileurl="file://$PROJECT_DIR$/filter/filter.iml" filepath="$PROJECT_DIR$/filter/filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/html/html.iml" filepath="$PROJECT_DIR$/html/html.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imgs/imgs.iml" filepath="$PROJECT_DIR$/imgs/imgs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jquery/jquery.iml" filepath="$PROJECT_DIR$/jquery/jquery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/script/script.iml" filepath="$PROJECT_DIR$/script/script.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>onsubmit表单提交事件</title>
+    <script type="text/javascript">
+        function onsubmitFun(){
+            alert("onsubmit事件表单提交")
+            //当表单有不合法项
+            // return false;//标签里 return onsubmitFun()
+            return true;
+        }
+        window.onload=function (){
+            var fromObj = document.getElementById("from01");
+            fromObj.onsubmit=function (){
+                alert("动态注册onsubmit表单提交事件")
+                //当表单有不合法项
+                //  return false;
+                return true;
+            }
+        }
+    </script>
+</head>
+<body>
+    <form action="https://www.baidu.com" method="post" onsubmit="return onsubmitFun()">
+        <input type="submit" value="onsubmit表单静态提交事件"/>
+    </form>
+    <form action="https://www.baidu.com" method="post" id="from01">
+        <input type="submit" value="onsubmit表单静态提交事件2"/>
+    </form>
+</body>
+</html>

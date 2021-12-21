@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/book/web/pages/client/index.jsp" value="file://$PROJECT_DIR$/book/web/pages/client" />
+        <entry key="file://$PROJECT_DIR$/book/web/pages/commond/login_success_commond.jsp" value="file://$PROJECT_DIR$/book/web/pages/commond" />
+        <entry key="file://$PROJECT_DIR$/book/web/pages/manager/book_edit.jsp" value="file://$PROJECT_DIR$/book/web/pages/manager" />
+        <entry key="file://$PROJECT_DIR$/book/web/pages/manager/manager.jsp" value="file://$PROJECT_DIR$/book/web/pages/manager" />
+        <entry key="file://$PROJECT_DIR$/book/web/pages/user/regist.html" value="file://$PROJECT_DIR$/book/web/pages/user" />
+      </map>
+    </option>
+  </component>
+</project>

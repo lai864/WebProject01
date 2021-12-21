@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>通过id属性获取对象</title>
+    <script type="text/javascript">
+        function onclickFun(){
+            var inputObj = document.getElementById("username01");
+         //   alert(inputObj.value)
+
+           var username = inputObj.value;
+
+           //正则表达式验证字符串是否符合某个规则
+            // 一般都是字符串在符号/ /中
+            //  符号/ /   相对于""
+            //  符号^      ^a值开头必须是a,
+            //  符号&     a&必须以a结尾
+            //  符号^和符号&和{}  符号^和符号&一起用两个都要符合，只用其中任何一个，都要满足最低长度
+            //  符号{}    /a{5,12}/里面数字规定要a是重复大于等于最小长度，同时用^开头和&结尾表示在这个区间的长度
+            //  符号{}    /^\w{5,12}$/里面数字规定任意字母，数字，下划线其中的(不用重复)要大于等于最小长度，同时用^开头和&结尾表示在这个区间的长度
+            //  符号\w    表示字母，数字，下划线
+            var patt = /^\w{5,12}$/;
+
+            var usernameSpanObj = document.getElementById("usernameSpan");
+           // alert(usernameSpanObj.innerHTML);
+            if(patt.test(username)){
+                //alert("输入的内容符合规范")
+                alert(usernameSpanObj.innerHTML="输入的内容符合规范");
+            }else {
+                //alert("输入的内容不符合规范")
+                alert(usernameSpanObj.innerHTML="输入的内容不符合规范");
+            }
+        }
+    </script>
+</head>
+<body>
+    用户名:<input type="text" id="username01" value="abc123"/>
+    <span style="color:red" id="usernameSpan">也可以放图片用方法调用</span>
+    <button onclick="onclickFun()">校验</button><br/>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数组</title>
+        <script type="text/javascript">
+            var arr=[true,1];//不影响索引的数组元素值
+            //不用定义长度，不同数据类型可以在一个数组，也是下标0开始
+             arr[0]=8;
+             // alert(arr[0]) :8
+            // alert(arr.length) :1
+            arr[2] =12;
+            // alert(arr.length) :3
+            //数组长度是定义的最大索引加1，自动扩容
+            // alert(arr[1]) :undefined
+             arr[1] = 4;
+             alert(arr.length)
+             for (var i=0;i<arr.length;i++){
+                 alert(arr[i])
+            }
+        </script>
+</head>
+<body>
+
+</body>
+</html>

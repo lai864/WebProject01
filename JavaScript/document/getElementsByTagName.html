@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>getElementsByTagName</title>
+    <script type="text/javascript">
+        function onclickFun(){
+            var hobbies = document.getElementsByTagName("input");//input标签的全部属性，是集合
+            for (var i = 0; i < hobbies.length; i++) {
+                hobbies[i].checked=true;
+            }
+        }
+    </script>
+</head>
+<body>
+<input type="checkbox" name="hobby" value="cpp"/>cpp
+<input type="checkbox" name="hobby" value="java"/>java
+<input type="checkbox" name="hobby" value="js"/>js<br/>
+<button onclick="onclickFun()">全选</button>
+</body>
+</html>

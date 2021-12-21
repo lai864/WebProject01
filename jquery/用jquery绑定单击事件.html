@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用jquery绑定单击事件</title>
+   <!-- <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.min.js"></script>-->
+    <script src=".././script/jquery-1.7.2.js"></script>
+    <script type="text/javascript">
+        // window.onload=function (){
+        // }
+        /*  $()核心函数里可以传入的参数
+        *       传入参数为(函数)时，在文档加载完成后执行这个函数
+        *       传入参数为(HTML字符串)时，根据这个字符串创建元素结点对象
+        *       传入参数为(.选择器字符串)时，根据这个字符串查找元素结点对象，类似获取DOM对象方法下的属性，jquery的便利方法
+        *       传入参数为(DOM对象)时，将DOM对象包装为jquery对象
+        *
+        *       jQuery对象
+        *           通过jQuery提供的API创建对象，是jQuery对象
+        *           通过jQuery包装的DOM对象，也是jQuery对象
+        *           通过jQuery提供的API查询到的对象，是jQuery对象
+        *
+        *           jQuery对象的本质是什么
+        *           jQuery对象是DOM对象数组+jQuery提供的一系列功能函数
+        *
+        *           jQuery对象和Dom对象使用区别
+        *           jQuery对象不能使用DOM对象的属性和方法
+        *           DOM对象也不能使用jQuery对象的方法和属性
+        *
+        *       DOM对象和jQuery对象互转
+        *       1，dom对象转化为jQuery对象
+        *           先有DOM对象
+        *           $(DOM对象) 就可以转换成为jQuery对象
+        *
+        *       2.jQuery对象转为DOM对象
+        *           先有jQuery对象
+        *           jQuery对象(下标)取出相应的DOM对象*/
+        $(function (){ //加载页面 $()是jquery是它的核心函数
+            var $but01 = $("#but01"); //获得对象
+            $but01.click(function (){ //绑定单击事件
+                alert("jquery单击事件");
+            });
+        });
+    </script>
+</head>
+<body>
+    <button id="but01">hello jquery</button>
+</body>
+</html>

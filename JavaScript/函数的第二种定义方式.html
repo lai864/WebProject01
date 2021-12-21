@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>函数的第二种定义方式</title>
+        <script type="text/javascript">
+            //js没有方法重载，方法名相同会被后面方法覆盖
+            var fun=function (){
+                alert("无参函数");
+            }
+           fun();
+            var fun2=function (a,b){
+                alert(a+"加"+b);
+            }
+            fun2(1,2);
+
+            //带返回值
+            var fun3=function (num1,num2){
+
+                return num1+num2;
+            }
+            alert(fun3(100,200));
+        </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>getElementsByName</title>
+    <script type="text/javascript">
+        function onclickFun1(){
+            var hobbies = document.getElementsByName("hobby");//对象是一个数组
+            for (var i=0;i<hobbies.length;i++){
+                hobbies[i].checked=true;
+            }
+        }
+
+        function onclickFun2(){
+            var hobbies = document.getElementsByName("hobby");//对象是一个数组
+            for (var i=0;i<hobbies.length;i++){
+                hobbies[i].checked=false;
+            }
+        }
+
+        function onclickFun3(){
+            var hobbies = document.getElementsByName("hobby");//checked能被boolean值，代表boolean值
+            for (var i = 0; i < hobbies.length; i++) {
+                hobbies[i].checked=!hobbies[i].checked;
+            //     if (hobbies[i].checked){
+            //         hobbies[i].checked=false;
+            //     }else {
+            //         hobbies[i].checked=true;
+            //     }
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="checkbox" name="hobby" value="cpp"/>cpp
+    <input type="checkbox" name="hobby" value="java"/>java
+    <input type="checkbox" name="hobby" value="js"/>js<br/>
+    <button onclick="onclickFun1()">全选</button>
+    <button onclick="onclickFun2()">全不选</button>
+    <button onclick="onclickFun3()">反选</button>
+</body>
+</html>

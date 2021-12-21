@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>object定义对象实例&{}定义对象</title>
+    <script type="text/javascript">
+        // var 变量名 = new Object(); 变量名.属性=值
+        var obj = new Object();
+        obj.name = "巨魔叔叔";
+        obj.fun = function (){
+            alert(this.name);
+        }
+        obj.fun();
+
+        //var 变量名={属性：值};
+        var obj2={
+            age:18,
+            fun:function (){
+                alert(this.age)
+            }
+        };
+        obj2.fun();
+    </script>
+</head>
+<body>
+
+</body>
+</html>
